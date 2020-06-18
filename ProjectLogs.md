@@ -2,7 +2,7 @@
 ## 18 Juni 2020
 
 
-### policy detail
+### Policy Detail
 -> member number : mau dipake seperti apa? format numbering sperti apa?
 -> apa running expired? jadi problem tdk, serving bisnis yg membernya expired atau tdk? prblemnya, untuk setup bisnis owner lumayan ribet, apa fitur ini jadi poin plus atau poin minus
 -> special promo: manual, karena blm ada POS. 
@@ -114,5 +114,5 @@ standrad
 1. API -> 1 minggu
 2. paralel: dessain jalan, dari API desain basic fitur
 
-## next meeting: 
+## Next Meeting: 
 25 jun 2020, 15:00
