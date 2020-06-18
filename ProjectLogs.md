@@ -1,5 +1,6 @@
-#Meeting 1
-##18 Juni 2020
+# Meeting 1
+## 18 Juni 2020
+
 
 ### policy detail
 -> member number : mau dipake seperti apa? format numbering sperti apa?
