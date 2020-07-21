@@ -1,3 +1,28 @@
+# Meeting 2
+## 21 Juli 2020
+
+#### Notes
+
+-. Gagal login beberapa kali diblokir
+-. password 6 digit numeric
+-. tambah fitur ui: banner/slider
+-. tambah fitur ui: halaman vendor, didalamnya ada poin, list voucher, apply membership ke vendor
+-. tambah fitur ui: searching
+-. tambah fitur: membership tier
+-. untuk nomor membership, menggunakan nomor hp enduser. Satu nomor membership berlaku untuk semua vendor.
+-. profile: ditambahkan jenis kelamin, tp tidak bisa di edit
+
+##### TO DO
+-. Docs API
+-. Hosting API 
+-. revisi design
+
+#### Timeline
+-. Jumat 24 juli 2020, revisi design selesai, dimapping API
+-. Senin 27 juli 2020, mapping API selesai (beserta docs dan hosting). Tim developer mulai coding dari dokumentasi & design yang ada
+
+
+
 # Meeting 1
 ## 18 Juni 2020
 
