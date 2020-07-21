@@ -4,21 +4,31 @@
 #### Notes
 
 -. Gagal login beberapa kali diblokir
+
 -. password 6 digit numeric
+
 -. tambah fitur ui: banner/slider
+
 -. tambah fitur ui: halaman vendor, didalamnya ada poin, list voucher, apply membership ke vendor
+
 -. tambah fitur ui: searching
+
 -. tambah fitur: membership tier
+
 -. untuk nomor membership, menggunakan nomor hp enduser. Satu nomor membership berlaku untuk semua vendor.
+
 -. profile: ditambahkan jenis kelamin, tp tidak bisa di edit
 
 ##### TO DO
 -. Docs API
+
 -. Hosting API 
+
 -. revisi design
 
 #### Timeline
 -. Jumat 24 juli 2020, revisi design selesai, dimapping API
+
 -. Senin 27 juli 2020, mapping API selesai (beserta docs dan hosting). Tim developer mulai coding dari dokumentasi & design yang ada
 
 
@@ -29,14 +39,18 @@
 
 ### Policy Detail
 -> member number : mau dipake seperti apa? format numbering sperti apa?
+
 -> apa running expired? jadi problem tdk, serving bisnis yg membernya expired atau tdk? prblemnya, untuk setup bisnis owner lumayan ribet, apa fitur ini jadi poin plus atau poin minus
+
 -> special promo: manual, karena blm ada POS. 
+
 -> poin, buka fitur nya bgmn, generic (bisnis owner bisa tambah poin terserah dia) atau rupiah, lalu poin ini di pakai buat apa?
 
 -----
 
 1. QR Code:
 -> generate dari member nember
+
 -> security issue: qr code baru kepake waktu penjual dan pembeli ketemu, qr code dipakai validasi bahwa org yg pake voucher adalah org yg punya. 
     -> qr code sebaiknya di generate dengan security code 
     
@@ -51,12 +65,16 @@
 
 4. Member Point
 -> Per tenant, point hanya bisa dipakai dan didapatkan di tenant yg sama. 
+
 -> Penambahan point, lgsg point kemudian (next dev) di konversi ke IDR.
+
 -> Untuk point, di level tenant. Point di tenant A dan tenant B tdk tersambung. 
 
 5. Member voucher
 -> tenant dikasih pilihan voucher apa, dikeluarkan berapa.
+
 -> voucher hanya caption saja, terserah tenant bisa create isi voucher, jumlah brp, expired kapan.
+
 -> input: 
     - judul
     - syarat: diketik manual (text freeflow) krn tdk handle transaksi  
@@ -67,6 +85,7 @@
 
 7. Special Promo
 -> Halaman list daftar promonya apa aja (utk semua tenant)
+
 -> kalo bayar, nanti urutan bisa di atur
 
 -----
@@ -77,6 +96,7 @@
     - email (optional)
     - tgl lahir (optional)
     - jenis kelamin 
+    
 -> edit profile 
 
 2. edit profil
